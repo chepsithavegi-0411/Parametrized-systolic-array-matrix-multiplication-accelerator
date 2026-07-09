@@ -26,17 +26,17 @@ ACC_WIDTH
 
 ## Inputs
 
-clk
+clk  : it used to provide clock for sequential logic in MAC units and ensures synchronized operation
 
-rst
+rst  : used when we need to perform new matrix multiplication operation . it reinitializes the design
 
-en
+en   : it is used for stoping the processing units from performing unnecessary calculations during the operation. when en = 0 the accumulator hold its current value
 
-clr
+clr  : clears the internal accumulator register so a new accumulation can begin without resetting the entire module.
 
-a
+a    : it is an innput operand from MATRIX A
 
-b
+b    : it is an input operand from MATRIX B
 
 ---
 
