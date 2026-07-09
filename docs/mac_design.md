@@ -42,7 +42,7 @@ b    : it is an input operand from MATRIX B
 
 ## Outputs
 
-acc
+acc  : The accumulated result of successive multiply-accumulate operations. It reflects the current contents of the accumulator register.
 
 ---
 
